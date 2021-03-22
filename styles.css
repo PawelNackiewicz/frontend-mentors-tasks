@@ -31,6 +31,19 @@ body{
     box-shadow: 0 1px 10px 1px hsl(227, 10%, 46%);
 }
 
+.pattern-top {
+  position: absolute;
+  bottom: 35%;
+  right: 53%;
+}
+
+.pattern-bottom {
+  position: absolute;
+  left: 50%;
+  top: 48%;
+  z-index: -1;
+}
+
 .card-decoration {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;

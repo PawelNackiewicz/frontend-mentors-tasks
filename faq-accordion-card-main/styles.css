@@ -1,0 +1,48 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  background: hsl(273, 75%, 66%);
+  background: -webkit-linear-gradient(
+    to top,
+    hsl(240, 73%, 65%),
+    hsl(273, 75%, 66%)
+  );
+  background: linear-gradient(to top, hsl(240, 73%, 65%), hsl(273, 75%, 66%));
+  font-family: "Kumbh Sans", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  position: relative;
+  background: white;
+  width: 1000px;
+  border-radius: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.img {
+  min-width: 45%;
+  position: relative;
+  left: -10%;
+}
+
+.faq {
+  width: 55%;
+  padding: 4rem 6rem 4rem 0;
+}
+
+.faq-header {
+  font-size: 32px;
+  font-weight: 700;
+  margin: 0;
+}
